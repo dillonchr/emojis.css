@@ -1,5 +1,6 @@
 import emojis from './emojis';
 import './demo-style.css';
+import './native-emoji-stylesheet.css';
 
 const list = document.querySelector('ul');
 
