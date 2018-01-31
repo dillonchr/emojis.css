@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+    padding: 1rem;
+}
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+    h1 {
+        margin: 0 0 0;
+    }
+}
+h1 {
+    margin: 0;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul:empty::after {
+    content: "No results";
+    display: block;
+    margin: 2rem auto 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+li {
+    margin: 1rem 0;
+    width: 33%;
+    text-align: center;
+}
+p {
+    font-family: monospace;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+p::before {
+    content:".";
+}
+i {
+    font-size: 3rem;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    li {
+        width: 25%;
+    }
+}
+@media (min-width: 1024px) {
+    li {
+        width: 20%;
+    }
+}
