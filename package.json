@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "an icon font with no fonts or icons, just utf emojis included",
   "main": "native-emoji-stylesheet.css",
-  "homepage": "https://dillonchr.github.io/native-emoji-stylesheet/",
+  "homepage": "https://github.com/dillonchr/native-emoji-stylesheet#readme",
   "files": [
     "LICENSE",
     "native-emoji-stylesheet.css"
   ],
   "scripts": {
-    "test": "echo Hello!"
+    "start": "parcel index.html",
+    "test": "echo Hello!",
+    "build": "parcel build index.html --public-url ./ --no-cache"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,7 @@
   "bugs": {
     "url": "https://github.com/dillonchr/native-emoji-stylesheet/issues"
   },
-  "homepage": "https://github.com/dillonchr/native-emoji-stylesheet#readme"
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
 }
