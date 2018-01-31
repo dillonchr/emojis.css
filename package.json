@@ -1,12 +1,12 @@
 {
-  "name": "native-emoji-stylesheet",
+  "name": "emojis.css",
   "version": "1.0.0",
   "description": "an icon font with no fonts or icons, just utf emojis included",
-  "main": "native-emoji-stylesheet.css",
-  "homepage": "https://github.com/dillonchr/native-emoji-stylesheet#readme",
+  "main": "emojis.css",
+  "homepage": "https://dillonchr.github.io/emojis.css/",
   "files": [
     "LICENSE",
-    "native-emoji-stylesheet.css"
+    "emojis.css"
   ],
   "scripts": {
     "start": "parcel index.html",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dillonchr/native-emoji-stylesheet.git"
+    "url": "git+https://github.com/dillonchr/emojis.css.git"
   },
   "keywords": [
     "emoji",
@@ -24,7 +24,7 @@
   "author": "@dillonchr",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/dillonchr/native-emoji-stylesheet/issues"
+    "url": "https://github.com/dillonchr/emojis.css/issues"
   },
   "dependencies": {
     "babel-preset-env": "^1.6.1"
