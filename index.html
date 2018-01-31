@@ -22,11 +22,26 @@
         }
         li {
             margin: 0;
-            width: 19vw;
+            width: 32vw;
             text-align: center;
+        }
+        p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
         }
         i {
             font-size: 3rem;
+        }
+        @media (min-width: 768px) and (max-width: 1023px) {
+            li {
+                width: 24vw;
+            }
+        }
+        @media (min-width: 1024px) {
+            li {
+                width: 19vw;
+            }
         }
     </style>
 </head>
