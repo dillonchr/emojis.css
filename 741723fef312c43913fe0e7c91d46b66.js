@@ -3,5 +3,5 @@ require=function(r,e,n){function t(n,o){function i(r){return t(i.resolve(r))}fun
 },{}],5:[function(require,module,exports) {
 
 },{}],4:[function(require,module,exports) {
-"use strict";var e=require("./emojis"),t=r(e);function r(e){return e&&e.__esModule?e:{default:e}}require("./demo-style.css"),require("./native-emoji-stylesheet.css");const i=document.querySelector("ul"),u=({target:e})=>{l(t.default.filter(t=>t.includes(e.value.toLowerCase())))},l=e=>{i.innerHTML=e.reduce((e,t)=>`${e}<li title="${t}"><i class="${t}"></i><p>${t}</p></li>`,"")};l(t.default),document.querySelector("#filter").addEventListener("input",u);
+"use strict";var e=require("./emojis"),t=r(e);function r(e){return e&&e.__esModule?e:{default:e}}require("./demo-style.css"),require("./native-emoji-stylesheet.css");var u=document.querySelector("ul"),i=function(e){var r=e.target;n(t.default.filter(function(e){return e.includes(r.value.toLowerCase())}))},n=function(e){u.innerHTML=e.reduce(function(e,t){return e+'<li title="'+t+'"><i class="'+t+'"></i><p>'+t+"</p></li>"},"")};n(t.default),document.querySelector("#filter").addEventListener("input",i);
 },{"./emojis":7,"./demo-style.css":5,"./native-emoji-stylesheet.css":5}]},{},[4])
