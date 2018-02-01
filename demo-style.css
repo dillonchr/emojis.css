@@ -44,6 +44,9 @@ li {
     width: 33%;
     text-align: center;
 }
+li.hidden {
+    display: none;
+}
 p {
     font-family: monospace;
     overflow: hidden;
